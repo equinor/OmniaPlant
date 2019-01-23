@@ -14,3 +14,7 @@ The API versioning is following Semantic Versioning - https://semver.org/
 The Timeseries API uses OAuth 2.0 and supports both user authentication (OAuth 2.0 authorization code grant) and service-to-service authentication (OAuth 2.0 client credentials grant).
 
 All date and time information (i.e. timestamps) are based on UTC (Universal Time Coordinated) and formatted according to RFC3339: *YYYY-MM-DDThh:mm:ss.mmmZ*
+
+- [How to mange Timeseries Metadata](https://github.com/equinor/OmniaPlant/blob/master/Timeseries%20API/Timeseries%20Metadata.md)
+- [How to mange Timeseries Data](https://github.com/equinor/OmniaPlant/blob/master/Timeseries%20API/Timeseries%20Data.md)
+- [How to authenticate and authorize](https://github.com/equinor/OmniaPlant/blob/master/Timeseries%20API/Authentication%20and%20Authorization.md)
