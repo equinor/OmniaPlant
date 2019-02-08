@@ -62,9 +62,6 @@ namespace HelloTimeseries
             //Omnia Timeseries API host, will differ depending on being beta or GA release
             const string apiHost = "https://host/timeseries";
 
-            // Azure API Management Subscription Key. Available from the APIM Portal 
-            const string apiSubKey = "";
-
             // Get Access Token
             var authenticationContext = new AuthenticationContext(
                $"{authorityHostUrl}/{tenant}",
@@ -82,7 +79,6 @@ namespace HelloTimeseries
            
             // Request headers
             client.DefaultRequestHeaders.Add("Authorization", bearerToken);
-            client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", apiSubKey);
 
             // ID of the Timeseries Metadata object to get
             string id = "guid";
