@@ -67,12 +67,20 @@ namespace HelloTimeseries
                $"{authorityHostUrl}/{tenant}",
                TokenCache.DefaultShared);
 
-            AuthenticationResult token = await authenticationContext.AcquireTokenAsync(
+
+           // Get Calling User's Access Token (Native Client)
+           //AuthenticationResult token = await authenticationContext.AcquireTokenAsync(resourceId,
+           //                 clientId, new Uri($"{redirectUri}"),
+           //                 new PlatformParameters(PromptBehavior.Auto));
+           
+           // Get Access Token from API Client/Secret  (Web)
+           AuthenticationResult token = await authenticationContext.AcquireTokenAsync(
                           resource: resourceId,
                           clientCredential: new ClientCredential(
                               clientId: clientId,
                               clientSecret: clientSecret));
-            string bearerToken = "Bearer " + token.AccessToken;
+            
+           string bearerToken = token.CreateAuthorizationHeader();
 
             // Get Timeseries Metadata object by ID
             var client = new HttpClient();
