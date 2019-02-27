@@ -2,6 +2,9 @@
 The Omnia Plant Data Platform is Equinor's platform for providing contextualized industrial data. The platform is supporting and enabling 
 many of Equinor's major projects on the digital roadmap such as Integrated Operations Centre (IOC) and Digital Twin/AR/VR.
 
+Product documentation:
+* [Omnia Timeseries API](https://github.com/equinor/OmniaPlant/tree/master/Omnia%20Timeseries%20API)
+
 ![Screenshot](/.attachments/Building_blocks.JPG)
 
 The current building blocks in the platform is centered around timeseries metadata and data. It consists of services to export and stream timeseries data and metadata from a number of different timeseries data sources both internally and externally. Data and functionality in Omnia Plant Data Platform is exposed by using APIs that both internal and external customers can use to build new value-adding application and services. 
