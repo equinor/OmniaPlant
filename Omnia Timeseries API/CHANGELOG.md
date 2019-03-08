@@ -4,6 +4,10 @@ All notable changes to this API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
+## [Unreleased]
+- Wildcard search on Timeseries name
+- Timeseries Data aggregation (event-based Average, Maximum, Minimum, Standard Deviation and Count)
+
 ## [v1.1]
 ### Added
 - Create one timeseries metadata object
