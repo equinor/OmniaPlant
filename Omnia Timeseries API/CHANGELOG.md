@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Writing timeseries data by using HTTP Post
 - Wildcard search on multiple timeseries fields, and support for starting searches with asterisk
 
-## [v.2]
+## [v1.2]
 ### Added
 - Get aggregated timeseries data (avg, min, max, sum, stddev, count) according to time window, processing interval and filling of empty processing intervals.
 - Wildcard (using asterisk) search on timeseries name (currently not supporting searches starting with asterisk)
