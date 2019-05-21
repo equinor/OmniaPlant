@@ -5,8 +5,11 @@ All notable changes to this API will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
-- Writing timeseries data by using HTTP Post
-- Wildcard search on multiple timeseries fields, and support for starting searches with asterisk
+
+## [v1.3]
+### Added
+- Writing timeseries data points using HTTP POST on one or multiple timeseries, with the option of choosing it to be asynchronous or not.
+- Wildcard (using asterisk) search on the timeseries metadata fields name, description and unit, and now support for starting the search with asterisk
 
 ## [v1.2]
 ### Added
