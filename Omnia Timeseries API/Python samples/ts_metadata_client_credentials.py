@@ -43,7 +43,7 @@ token = context.acquire_token_with_client_credentials(
     parameters_file['clientId'],
     parameters_file['clientSecret'])
 
-api_uri = parameters_file['apiHost'] + '/' + parameters_file['apiVersion'] + '/' + parameters_file['apiEndpoint'] + '/'
+api_uri = parameters_file['apiHost'] + '/' + parameters_file['apiEndpoint'] + '/' + parameters_file['apiVersion'] + '/'
 api_header = {'Authorization': 'Bearer %s' % token['accessToken']}
 
 def getTimeseriesById(id):
