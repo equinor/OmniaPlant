@@ -2,6 +2,7 @@
 
 The Omnia Timeseries API is documented in Wiki.
 - [Public Omnia Timeseries OpenAPI documentation](https://api.equinor.com/docs/services)
+- [Omnia Timeseries API changelog](https://github.com/equinor/OmniaPlant/blob/master/Omnia%20Timeseries%20API/CHANGELOG.md)
 - [Introduction to Omnia Timeseries API](https://github.com/equinor/OmniaPlant/wiki)
 - [Timeseries Metadata (Read/Write)](https://github.com/equinor/OmniaPlant/wiki/Timeseries-Metadata)
 - [Timeseries Raw Data (Read/Write)](https://github.com/equinor/OmniaPlant/wiki/Timeseries-Data)
