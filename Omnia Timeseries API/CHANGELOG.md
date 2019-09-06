@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
+## [v1.4]
+### Added
+- Added support to authenticate on behalf of a user and authorize based on AD group membership. Only for users with Equinor accounts.
+- New endpoint for deleting timeseries data points and timeseries metadata objects
+
 ## [v1.3]
 ### Added
 - Writing timeseries data points using HTTP POST on one or multiple timeseries, with the option of choosing it to be asynchronous or not.
