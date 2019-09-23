@@ -13,4 +13,4 @@
 
 ### Context
 **Q:** Is there an asset model / equipment hierarchy API that can be used to easily find and understand the timeseries data?<br>
-**A:** No, the Omnia Timeseries API itself only provides "flat" timeseries objects without any other context than the description and engineering unit.
+**A:** No, the Omnia Timeseries API itself only provides "flat" timeseries objects without any other context than the name, description, engineering unit and the plant the timeseries is linked to.
