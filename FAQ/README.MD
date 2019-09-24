@@ -15,7 +15,11 @@
 **A:** No, timeseries ("tags") is made available in the Omnia Timeseries DB and Omnia Timeseries API case by case, so it is use case driven. That said, in the Omnia Timeseries API you will also find data that don't exist in the on-premise Historians, such as new derived and calculated data from projects. 
 
 **Q:** How much history do you make available in the Omnia Timeseries API?<br>
-**A:** We currently don't have any retention policies in the Omnia Timeseries DB. For timeseries data coming from the on-premise Historians we backfill 120 days of history when we start streaming the microbatches to Omnia. The backfill is running every midnight. 
+**A:** We currently don't have any retention policies in the Omnia Timeseries DB. For timeseries data coming from the on-premise Historians we backfill 120 days of history when we start streaming the microbatches to Omnia. The backfill is running every midnight.
+
+### Timeseries Metadata
+**Q:** What happens in Omnia Timeseries API if timeseries metadata (name, description, unit) changes in the source system?<br>
+**A:** If a timeseries name ("tag name") is changed (renamed) in the on-premise Historians (OSISoft PI and AspenTech IP.21), the corresponding name will be updated in Omnia and be reflected in the Omnia Timeseries API. The same goes for description and unit. We are not able to automatically detect if someones decides to do the renaming by creating a new timeseries ("tag") in the on-premises Historian. This new tag must be treated as a new timeseries and work must be done to make it and its data available in Omnia. When customers write new timeseries data to Omnia Timeseries API, it is their responsibility to keep metadata updated. 
 
 ### Omnia Timeseries API versus Data Lake
 **Q:** Do I get the exact same timeseries with data points in both the Omnia Timeseries API and the Data Lake?<br>
