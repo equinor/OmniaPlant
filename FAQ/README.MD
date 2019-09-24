@@ -12,7 +12,7 @@
 **A:** For timeseries data originating from the on-premise Historians, the publishing rate is 5 minutes, i.e. data is refreshed every 5 minutes. For the Peregrino plant, the publishing rate is 10 minutes.
 
 **Q:** In the Omnia Timeseries API, will I find all timeseries ("tags") that exist in the on-premise Historians?<br>
-**A:** No, timeseries ("tags") is made available in the Omnia Timeseries DB and Omnia Timeseries API case by case, so it is use case driven. That said, in the Omnia Timeseries API you will also find data that don't exist in the on-premise Historians, such as new derived and calculated data from projects. 
+**A:** No, timeseries ("tags") are made available in the Omnia Timeseries DB and Omnia Timeseries API case by case, so it is use-case driven. That said, in the Omnia Timeseries API you will also find data that don't exist in the on-premise Historians, such as new derived and calculated data from projects. 
 
 **Q:** How much history do you make available in the Omnia Timeseries API?<br>
 **A:** We currently don't have any retention policies in the Omnia Timeseries DB. For timeseries data coming from the on-premise Historians we backfill 120 days of history when we start streaming the microbatches to Omnia. The backfill is running every midnight.
