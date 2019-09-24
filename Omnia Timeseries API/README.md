@@ -8,5 +8,5 @@ The Omnia Timeseries API is documented in Wiki.
 - [Timeseries Raw Data (CRUD)](https://github.com/equinor/OmniaPlant/wiki/Timeseries-Data)
 - [Timeseries Aggregated Data](https://github.com/equinor/OmniaPlant/wiki/Timeseries-Aggregated-Data)
 - [How to authenticate and authorize](https://github.com/equinor/OmniaPlant/wiki/Authentication-&-Authorization)
-- [How to connect to Omnia Timeseries API from Power BI](https://github.com/equinor/OmniaPlant/wiki/PowerBI)
+- [How to connect to Omnia Timeseries API from Postman](https://github.com/equinor/OmniaPlant/wiki/How-to-connect-to-the-Omnia-Timeseries-API-using-Postman)
 - [API Examples](https://github.com/equinor/OmniaPlant/wiki/API-examples)
