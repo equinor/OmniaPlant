@@ -1,4 +1,4 @@
-```
+```javascript
 var clientId = pm.variables.get("clientId");
 
 var clientSecret = pm.variables.get("clientSecret");
