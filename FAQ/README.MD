@@ -29,6 +29,9 @@
 **Q:** How much history do you make available in the Omnia Timeseries API?<br>
 **A:** We currently don't have any retention policies in the Omnia Timeseries DB. For timeseries data coming from the on-premise Historians we backfill 120 days of history when we start streaming the microbatches to Omnia. The backfill is running every midnight.
 
+**Q:** Do the timeseries data need to be in Omnia and the Omnia Timeseries DB to get it from the Omnia Timeseries API?<br>
+**A:** Yes, the data must be in the Omnia Timeseries DB to get it from Omnia Timeseries API.
+
 ### Timeseries Metadata
 **Q:** What happens in Omnia Timeseries API if timeseries metadata (name, description, unit) changes in the source system?<br>
 **A:** If a timeseries name ("tag name") is changed (renamed) in the on-premise Historians (OSISoft PI and AspenTech IP.21), the corresponding name will be updated in Omnia and be reflected in the Omnia Timeseries API. The same goes for description and unit. We are not able to automatically detect if someones decides to do the renaming by creating a new timeseries ("tag") in the on-premises Historian. This new tag must be treated as a new timeseries and work must be done to make it and its data available in Omnia. When customers write new timeseries data to Omnia Timeseries API, it is their responsibility to keep metadata updated. 
@@ -45,3 +48,7 @@ The Data Lake on the other hand is for batch processing ("offline") where you ta
 ### Context
 **Q:** Is there an asset model / equipment hierarchy API that can be used to easily find and understand the timeseries data?<br>
 **A:** No, the Omnia Timeseries API itself only provides "flat" timeseries objects without any other context than the name, description, engineering unit and the plant the timeseries is linked to.
+
+### Error messages
+**Q:** I have received client id, client secret, resource id and tenant id, but I get a 401 - "Unauthorized" message when trying a GET request from Postman, what is wrong?<br>
+**A:** Please follow our Postman guide: https://github.com/equinor/OmniaPlant/tree/master/Postman - make sure your credentials are correctly inserted.
