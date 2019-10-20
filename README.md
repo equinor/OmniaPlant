@@ -19,4 +19,5 @@ The team building the platform operates in two-week sprints, and a product goes 
 
 A product or feature will be available and supported 12 months after customers have been notified that it will be removed. Deprecation takes for instance place when there is a new major release. The previous version can then be used and will be supported for 12 months before it is taken out of production. 
 
-
+## Support
+Do you need help? Take a look at https://github.com/equinor/OmniaPlant/wiki/Support
