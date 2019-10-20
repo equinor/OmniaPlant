@@ -10,6 +10,9 @@ assignees: ''
 **Describe the bug**
 A clear and concise description of what the bug is.
 
+**Trace ID**
+If you have received a response with a trace id, include it here.
+
 **To Reproduce**
 Steps to reproduce the behavior:
 1. Go to '...'
