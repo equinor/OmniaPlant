@@ -1,0 +1,22 @@
+{ 
+    "schema": "equinor/plant/schemas/ingest/datapoints_v2",
+    "data": {
+        "items": [
+            {
+                "id": "<timeseries id assigned by Omnia Plant>",
+                "datapoints": [
+                    {
+                        "time": "2019-11-01T10:00:00.000Z",
+                        "value" 124.5,
+                        "status" 192
+                    },
+                    {
+                        "time": "2019-11-01T10:00:00.000Z",
+                        "value" 124.5,
+                        "status" 192
+                    }
+                ]
+            }
+        ]
+    }
+}
