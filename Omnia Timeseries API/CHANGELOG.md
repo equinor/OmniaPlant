@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
+## [v1.5]
+### Added
+- Added support for retrieves datapoints from multiple timeseries in one request.
+- Both afterTime and beforeTime (bounds) now optional paramters when getting the first datapoint.
+- Both afterTime and beforeTime (bounds) now optional paramters when getting the last datapoint.
+- Added support for filtering on datapoint status on both raw and aggregated timeseries data.
+- The return limit for data points is now increased fom 10 000 to 100 000.
+
 ## [v1.4]
 ### Added
 - Added support to authenticate on behalf of a user and authorize based on AD group membership. Only for users with Equinor accounts.
