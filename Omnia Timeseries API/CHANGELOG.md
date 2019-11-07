@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [v1.5]
 ### Added
-- Added support for retrieves datapoints from multiple timeseries in one request.
+- Added support for retrieves datapoints from multiple timeseries (max 100) in one request.
 - Both afterTime and beforeTime (bounds) now optional paramters when getting the first datapoint.
 - Both afterTime and beforeTime (bounds) now optional paramters when getting the last datapoint.
 - Added support for filtering on datapoint status on both raw and aggregated timeseries data.
