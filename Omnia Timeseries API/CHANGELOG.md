@@ -21,7 +21,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Metadata (name and unit) removed from the response returned from all data point endpoints (/data), you will only get the timeseries id and VQT (value, quality, timestamp).
 
 ### Changed
-- You are not allowed to create a timeseries metadata object with the same name on the same facility. A **"409 Conflict" with the message "Attempt to store timeseries 'name' from 'facility' which already exists"**. In version 1.5 the constraint was on the fields name + assetId.
+- You are not allowed to create a timeseries metadata object with the same name on the same facility. A **"409 Conflict" with the message "Attempt to store timeseries 'name' from 'facility' which already exists"**. In version 1.5 the constraint was on the fields "name + assetId".
 - Creating a new timeseries object in Omnia Timeseries API v1.6 with facility = "XXX" where a timeseries already exists with the same name and assetId = "XXX" will return a **"409 Conflict" with the message "Attempt to store timeseries 'name' from 'facility' which already exists"**.
 - The "facility" field is now mandatory as opposed to "assetId" in v1.5 that was optional. 
 
