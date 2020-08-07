@@ -18,7 +18,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Enhanced access control where we are able to control the access on source (e.g. Historian) across plants and on both source and plant (e.g. Historian from Åsgard B). This works both for both OAuth 2.0 grant flows (service-to-service and user impersonation).
 - Support for CORS (Cross-Origin Resource Sharing) [minor v1.6.1] 
 - Improved authorization to data from other sources than historian/IMS [minor v1.6.1]
-- 
+- New endpoint to add or get multiple timeseries objects: [minor v1.6.2]
+ * https://api.equinor.com/docs/services/Timeseries-api-v1-6/operations/postGetOrAddTimeseries
 
 
 ### Removed
