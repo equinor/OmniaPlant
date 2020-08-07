@@ -16,6 +16,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
   * https://api.equinor.com/docs/services/Timeseries-api-v1-6/operations/getLastMultiDatapoint?
 - Added "Facility" as a mandatory new metadata field when creating a new timeseries object (https://api.equinor.com/docs/services/Timeseries-api-v1-6/operations/postTimeseries?). The facility field shall represent the plant code the timeseries belongs to. Only valid facility codes according to Equinor Common Library (master data) will be accepted. If an invalid facility code is sent in the body, a **"400 Bad Request" is returned with the message "Facility not found."**
 - Enhanced access control where we are able to control the access on source (e.g. Historian) across plants and on both source and plant (e.g. Historian from Åsgard B). This works both for both OAuth 2.0 grant flows (service-to-service and user impersonation).
+- Support for CORS (Cross-Origin Resource Sharing) [minor v1.6.1] 
+- Improved authorization to data from other sources than historian/IMS [minor v1.6.1]
+- 
+
 
 ### Removed
 - Metadata (name and unit) removed from the response returned from all data point endpoints (/data), you will only get the timeseries id and VQT (value, quality, timestamp).
@@ -23,7 +27,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - You are not allowed to create a timeseries metadata object with the same name on the same facility. A **"409 Conflict" with the message "Attempt to store timeseries 'name' from 'facility' which already exists"**. In version 1.5 the constraint was on the fields "name + assetId".
 - Creating a new timeseries object in Omnia Timeseries API v1.6 with facility = "XXX" where a timeseries already exists with the same name and assetId = "XXX" will return a **"409 Conflict" with the message "Attempt to store timeseries 'name' from 'facility' which already exists"**.
-- The "facility" field is now mandatory as opposed to "assetId" in v1.5 that was optional. 
+- The "facility" field is now mandatory as opposed to "assetId" in v1.5 that was optional. [minor v1.6.1]
+- Error message response, tracedID returned instead of activityID. [minor v.1.6.2]
 
 ### Fixed
 - Various backend tuning to improve the performance.
