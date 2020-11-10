@@ -22,7 +22,7 @@ parameters_file = {
     #This is the client/application id of your client app registered in Equinor's Azure AD tenant, provided by Omnia Plant
     'clientId': '',
     #This is the client/application secret of your client app registered in Equinor's Azure AD tenant, provided by Omnia Plant
-    'clientSecret': '',
+    'clientSecret': 'E1~123L987Xp2e3~LpqqX12xL--ABsd123', # Fake secret for testing GitHub secret scanning ,
     #This is the API version, the version is included in the URI
     'apiVersion': '',
     #API endpoint to call
