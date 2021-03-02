@@ -9,4 +9,5 @@ The Omnia Timeseries API is documented in Wiki.
 - [Timeseries Aggregated Data](https://github.com/equinor/OmniaPlant/wiki/Timeseries-Aggregated-Data)
 - [How to authenticate and authorize](https://github.com/equinor/OmniaPlant/wiki/Authentication-&-Authorization)
 - [How to connect to Omnia Timeseries API from Postman](https://github.com/equinor/OmniaPlant/tree/master/Postman)
+- [Python SDK](https://github.com/equinor/OmniaPlant/wiki/Python-SDK)
 - [API Examples](https://github.com/equinor/OmniaPlant/wiki/API-examples)
