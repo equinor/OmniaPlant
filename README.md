@@ -1,5 +1,5 @@
 # Omnia Industrial IoT Platform
-The Omnia Plant Data Platform is Equinor's platform for accessing contextualized industrial data from Equinor plants. All data and functionality are made available through open APIs so you can spend your time developing applications, applying analytics and accelerate/scale your digital initiatives. The platform is supporting and enabling many of Equinor's major projects on the digital roadmap such as Integrated Operations Centre (IOC), and it is also used for bi-directional data sharing with external suppliers and partners.
+The Omnia Industrial IoT Platform is Equinor's platform for accessing contextualized industrial data from Equinor plants. All data and functionality are made available through open APIs so you can spend your time developing applications, applying analytics and accelerate/scale your digital initiatives. The platform is supporting and enabling many of Equinor's major projects on the digital roadmap such as Integrated Operations Centre (IOC), and it is also used for bi-directional data sharing with external suppliers and partners.
 
 ![Screenshot](/.attachments/Building_blocks.JPG)
 
