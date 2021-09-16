@@ -6,11 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [v1.7 (Beta)]
 ### Added
-- Federation, new endpoint
+-  Federation, new concept, new optional parameter federationSource on some endpoints
+-  Federation, new endpoint
   * https://api.equinor.com/docs/services/Timeseries-api-beta-v1-7/operations/getDataByName?
-- Federation, new optional parameter federationSource
 - New endpoints for streaming
 - New endpoint to read metadata change history
+
+### Changed
 - General improvements and error corrections
 
 ## [v1.6]
