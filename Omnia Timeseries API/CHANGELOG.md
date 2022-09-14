@@ -3,6 +3,54 @@
 All notable changes to this API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
+## [v1.7.7]
+### Added
+- New StandardUnit returned in payload.
+
+### Changed
+- General improvements and error corrections
+
+## [v1.7.6]
+### Added
+- Federation, support mesagepack on raw andaggregated
+- Federation, improved time limit support on calls federated to Data Lake
+- Federation to dataLake, enable fill, limit and status filter
+
+### Changed
+- Optimize first and lates on federation
+- improved metrics
+
+## [v1.7.5]
+### Added
+- Multiple aggregates in Data Lake federation
+- Rate limiting
+
+### Changed
+- General improvements and error corrections
+
+## [v1.7.4]
+### Changed
+- Improved metrics logging
+
+## [v1.7.3]
+### Added
+- Search on datetime
+
+### Changed
+- Optimized getlatest when status filter used
+- General improvements and error corrections
+
+## [v1.7.2]
+### Changed
+- Improved caching
+- General improvements and error corrections
+
+## [v1.7.1]
+### Added
+- Federation, black / white listing consept included
+
+### Changed
+- Federation, general improvements and error corrections
 
 ## [v1.7]
 ### Added
@@ -15,7 +63,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 - General improvements and error corrections
 
-## [v1.6]
+## [v1.6] SUNSET (REMOVED) Aug 2022.
 ### Added
 - Response encoded in Protobuf added as an option for the following data points (/data) endpoints:
   * https://api.equinor.com/docs/services/Timeseries-api-v1-6/operations/getDatapoints?
