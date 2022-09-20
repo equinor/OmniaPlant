@@ -5,7 +5,7 @@ All notable changes to this API will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [v1.7.7]
 ### Added
-- New StandardUnit returned in payload.
+- New StandardUnit returned in metadata payload, where dialects of UoM (Unit of Measurement) are translated to standardized unit ref Equinor "common library".
 
 ### Changed
 - General improvements and error corrections
