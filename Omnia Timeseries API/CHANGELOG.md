@@ -12,9 +12,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [v1.7.6]
 ### Added
-- Federation, support mesagepack on raw andaggregated
+- Federation, support messagepack on raw anda ggregated
 - Federation, improved time limit support on calls federated to Data Lake
-- Federation to dataLake, enable fill, limit and status filter
+- Federation to Data Lake, enable fill, limit and status filter
 
 ### Changed
 - Optimize first and lates on federation
