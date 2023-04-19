@@ -573,7 +573,7 @@
 			},
 			{
 				"key": "client_authentication",
-				"value": "header",
+				"value": "body",
 				"type": "string"
 			},
 			{
